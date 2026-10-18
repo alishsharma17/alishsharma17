@@ -121,5 +121,5 @@ My personal site, built as an interactive editorial piece. A topographic contour
 <br>
 
 <div align="center">
-<sub>Built, tested and shipped by Alish Sharma · <a href="https://www.linkedin.com/in/alish-sharma-357760257/">LinkedIn</a> · <a href="mailto:alish1704@tamu.edu">alish1704@tamu.edu</a></sub>
+<sub>Built, tested and shipped by Alish Sharma · <a href="https://www.linkedin.com/in/alish-sharma-357760257/">LinkedIn</a> · <a href="mailto:alishsharma04@gmail.com">alishsharma04@gmail.com</a></sub>
 </div>
