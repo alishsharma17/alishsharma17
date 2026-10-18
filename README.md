@@ -97,17 +97,6 @@ My personal site, built as an interactive editorial piece. A topographic contour
 
 <br>
 
-### 🧠 BRAINROT.EXE · *Your last two brain cells are fighting for third place.*
-
-<img src="assets/brainrot.png" alt="Brainrot.exe: 34 3D pets, 7 themed zones, 66 achievements, 42 Luau unit tests" width="100%">
-
-An intentionally absurd, surprisingly deep **Roblox simulator** with 18 generators, 34 code-built 3D pets, 23 random events, seven zones, a boss fight against *The Algorithm*, and a 24-node prestige skill tree. Underneath is serious engineering: a server-authoritative engine, DataStores with session locking, idempotent purchase receipts, and 42 unit tests type-checked against the Roblox API.
-
-`Luau` `Rojo` `DataStoreService` `MarketplaceService` `luau-lsp`
-
-[Source](https://github.com/alishsharma17/brainrot)
-
-<br>
 
 ## ◼ Earlier work
 
