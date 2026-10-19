@@ -37,17 +37,18 @@ I like products that work all the way down: the interface, the data model, and t
 <table>
   <tr>
     <td width="50%"><img src="assets/exchange-book.jpg" alt="Exchange workspace: price chart, order book ladder with depth bars, and an order ticket explaining a fill in plain English"><br><sub><b>Exchange</b>: trade against a real C++ order book</sub></td>
-    <td width="50%"><img src="assets/exchange-options.jpg" alt="Options lab: Black-Scholes premium and delta, Greeks with units, and a profit and loss chart"><br><sub><b>Options</b>: three pricing models side by side</sub></td>
+    <td width="50%"><img src="assets/exchange-live.jpg" alt="Live market page: real Bitcoin order book from Coinbase, one-minute candles and a paper-trading ticket"><br><sub><b>Live</b>: a real Bitcoin order book, streaming</sub></td>
   </tr>
 </table>
 
-A working stock exchange, options desk and risk lab that runs entirely in your browser. The core is a **C++20 price-time-priority matching engine** and quant library compiled to **WebAssembly**, running in Web Workers behind a React interface. You trade against seeded market makers, price options, shape a volatility surface, stress a portfolio and backtest strategies on the same engine. Every market number is labelled as simulated.
+A working stock exchange, options desk and risk lab that runs entirely in your browser. The core is a **C++20 price-time-priority matching engine** and quant library compiled to **WebAssembly**, running in Web Workers behind a React interface. You trade against seeded market makers, price options, shape a volatility surface, stress a portfolio and backtest strategies on the same engine — and a **Live** page streams the real Bitcoin, Ether and Solana order books from Coinbase and Kraken. Simulated data is labelled simulated; live data is labelled live.
 
 - **Matching engine.** Integer-tick limit order book with limit, market, IOC, FOK, post-only and stop orders, cancel/replace priority rules and self-trade prevention. Sessions are event-sourced: replaying the log reproduces a 64-bit state hash, and the native and WebAssembly builds reach identical hashes.
 - **Quant library.** Black–Scholes–Merton with Greeks, an implied-vol solver, a CRR binomial tree, seeded Monte Carlo with antithetic and control variates, volatility surfaces with arbitrage checks, and portfolio scenarios with VaR and expected shortfall.
-- **Tested end to end.** 77 GoogleTest cases (including randomized property tests, also run under AddressSanitizer and UBSan), 40 Vitest tests against the shipped `.wasm`, and 29 Playwright tests including automated accessibility checks.
+- **Live market data.** Real order books and trades over public WebSockets, parsed off the main thread, with stale/reconnect handling, recent history, and paper trading that walks the live book to show slippage.
+- **Tested end to end.** 77 GoogleTest cases (including randomized property tests, also run under AddressSanitizer and UBSan), 55 Vitest tests against the shipped `.wasm` and recorded real feed messages, and 34 Playwright tests including automated accessibility checks.
 
-`C++20` `WebAssembly / Emscripten` `Next.js 16` `React 19` `TypeScript` `Web Workers` `Plotly` `GoogleTest` `Vitest` `Playwright` `Vercel`
+`C++20` `WebAssembly / Emscripten` `Next.js 16` `React 19` `TypeScript` `Web Workers` `WebSockets` `Plotly` `GoogleTest` `Vitest` `Playwright` `Vercel`
 
 **[▶ Live site](https://exchange-one-tau.vercel.app)** · [Source](https://github.com/alishsharma17/EXCHANGE)
 
