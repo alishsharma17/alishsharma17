@@ -65,7 +65,7 @@ A working stock exchange, options desk and risk lab that runs entirely in your b
   </tr>
 </table>
 
-A real-time computer vision platform that runs on your own hardware. A Python engine decodes video, runs YOLO26 detection and segmentation on the GPU, tracks objects across frames, and turns them into debounced events for zones and tripwires. A FastAPI service streams typed results over WebSockets to a Next.js workspace that draws overlays aligned to the video. The public site replays output recorded from the real pipeline, and it's labelled as a recording.
+A real-time computer vision platform that runs on your own hardware. A Python engine decodes video, runs YOLO26 detection and segmentation on the GPU, tracks objects across frames, and turns them into debounced events for zones and tripwires. A FastAPI service streams typed results over WebSockets to a Next.js workspace that draws overlays aligned to the video. On the public site you can **point your own camera at it**: the detector and tracker run in your browser on WebGPU (12.7 ms p50 from frame to result), and frames never leave your device. A labelled recording of the full server pipeline is there too.
 
 - **Bounded-latency streaming.** Decode and inference threads joined by a bounded queue: live mode drops stale frames, so latency can't build up, while replay mode processes every frame in order. From frame decode to client it measures **24.4 ms p50 / 29.2 ms p99** with YOLO on an Apple M5 Pro.
 - **Tracking from first principles.** My own ByteTrack-style tracker: a Kalman filter plus two-stage optimal assignment, at **0.24 ms per frame** for 10 objects. The rule engine adds hysteresis and cooldowns, so one crossing fires one event.
