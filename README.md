@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
 
 </div>
 
@@ -51,6 +51,30 @@ A working stock exchange, options desk and risk lab that runs entirely in your b
 `C++20` `WebAssembly / Emscripten` `Next.js 16` `React 19` `TypeScript` `Web Workers` `WebSockets` `Plotly` `GoogleTest` `Vitest` `Playwright` `Vercel`
 
 **[▶ Live site](https://exchange-one-tau.vercel.app)** · [Source](https://github.com/alishsharma17/EXCHANGE)
+
+<br>
+
+### 👁️ SPECTRA · *See. Understand. Act.*
+
+<a href="https://spectra-fawn-ten.vercel.app/vision"><img src="assets/spectra-vision.jpg" alt="SPECTRA Vision workspace: a street scene with instance masks, tracked boxes and labels, a crosswalk zone and midline tripwire, plus measured inference latency and a timeline of person and car counts with rule events" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/spectra-sentinel.jpg" alt="Sentinel: a monitored crosswalk with a zone and directional tripwire beside a rail of debounced crossing events synced to playback"><br><sub><b>Sentinel</b>: debounced zone and tripwire events</sub></td>
+    <td width="50%"><img src="assets/spectra-atlas.jpg" alt="Atlas: a frame split against its relative-depth heatmap, depth-ranked objects, and an orbitable 3D point cloud"><br><sub><b>Atlas</b>: relative depth and a 3D point cloud</sub></td>
+  </tr>
+</table>
+
+A real-time computer vision platform that runs on your own hardware. A Python engine decodes video, runs YOLO26 detection and segmentation on the GPU, tracks objects across frames, and turns them into debounced events for zones and tripwires. A FastAPI service streams typed results over WebSockets to a Next.js workspace that draws overlays aligned to the video. The public site replays output recorded from the real pipeline, and it's labelled as a recording.
+
+- **Bounded-latency streaming.** Decode and inference threads joined by a bounded queue: live mode drops stale frames, so latency can't build up, while replay mode processes every frame in order. From frame decode to client it measures **24.4 ms p50 / 29.2 ms p99** with YOLO on an Apple M5 Pro.
+- **Tracking from first principles.** My own ByteTrack-style tracker: a Kalman filter plus two-stage optimal assignment, at **0.24 ms per frame** for 10 objects. The rule engine adds hysteresis and cooldowns, so one crossing fires one event.
+- **Measured, not assumed.** Back-to-back benchmarks said **7.1 ms** per inference; at a 15 Hz duty cycle it's **~24 ms**, because the GPU idles between calls. I also reproduced and fixed a GPU race that crashed the server when models were switched. All numbers come from scripts in the repo.
+- **Secure by test.** Workspace RBAC, CSRF protection, SSRF defence for camera URLs, encrypted credentials, and opt-in, visible recording — covered by 92 pytest tests, including runs with real model weights.
+
+`Python` `PyTorch (MPS)` `OpenCV` `FastAPI` `WebSockets` `SQLAlchemy` `NumPy / SciPy` `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Vercel`
+
+**[▶ Live site](https://spectra-fawn-ten.vercel.app)** · [Source](https://github.com/alishsharma17/spectra)
 
 <br>
 
@@ -140,7 +164,7 @@ My personal site, built as an interactive editorial piece. A topographic contour
   <img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,cloudflare,aws,linux,git&theme=light" alt="PostgreSQL, Supabase, SQLite, Cloudflare, AWS, Linux, Git">
 </p>
 
-**Also:** C++20 & WebAssembly (Emscripten) · GoogleTest · React Native & Expo · SwiftUI · MapLibre · MediaPipe · Vitest & Playwright · Cisco routing & switching · Windows Server / Active Directory · VMware
+**Also:** C++20 & WebAssembly (Emscripten) · PyTorch & OpenCV · GoogleTest · React Native & Expo · SwiftUI · MapLibre · MediaPipe · Vitest & Playwright · Cisco routing & switching · Windows Server / Active Directory · VMware
 
 <br>
 
