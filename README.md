@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Alish Sharma: software engineer who ships products end to end, from 3D web apps to iOS marketplaces to the network underneath them. CS at Texas A&M, Field Engineer at United Airlines, Founder of Mowvi." width="100%">
+<img src="assets/banner.png" alt="Alish Sharma: software engineer who ships products end to end, from trading engines and computer vision to mobile marketplaces. Software Engineer, Founder of Mowvi, CS at Texas A&M. sharmalish.com" width="100%">
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://alish-portfolio-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_site-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-TICKWIRE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: TICKWIRE"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-TICKWIRE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: TICKWIRE"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
 
 </div>
 
 <br>
 
-I study computer science at **Texas A&M**, keep airline systems running as a **Field Engineer at United Airlines**, and I'm building **Mowvi**, an on demand lawn care marketplace app. My portfolio, with everything below, lives at **[alish-portfolio-nu.vercel.app](https://alish-portfolio-nu.vercel.app)**.
+I'm a **software engineer** who designs, builds and ships complete products: a C++ exchange compiled to WebAssembly, a real time computer vision platform, a market data lab, and **Mowvi**, the lawn care marketplace I'm founding. I study computer science at **Texas A&M**. Everything below lives on my portfolio at **[sharmalish.com](https://sharmalish.com)**.
 
-I like products that work all the way down: the interface, the data model, and the network it runs on. Below are things I've designed, built, tested and shipped myself.
+I like products that work all the way down: the interface, the data model and the engine underneath. Below are things I've designed, built, tested and shipped myself.
 
 <br>
 
@@ -157,20 +157,22 @@ A robotics lab in the browser. Your webcam watches your hand, and **Kiki**, a hu
 
 <br>
 
-### ✦ Portfolio · *An interactive poster with a codebase under its surface.*
+### ✦ sharmalish.com · *An interactive poster with a codebase under its surface.*
+
+<a href="https://sharmalish.com"><img src="assets/portfolio.jpg" alt="Portfolio homepage: giant ALISH SHARMA type layered around a portrait, over a topographic contour field, with a liquid glass cursor lens revealing hidden code" width="100%"></a>
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/portfolio.jpg" alt="Portfolio homepage: giant ALISH SHARMA type over a topographic contour field, with a liquid-glass cursor lens"><br><sub><b>Home</b>: move the cursor and the lens reveals hidden code</sub></td>
-    <td width="50%"><img src="assets/portfolio-projects.jpg" alt="Portfolio projects index with oversized MOWVI and THIS PORTFOLIO rows"><br><sub><b>Projects</b>: an editorial index with hover previews</sub></td>
+    <td width="68%"><img src="assets/portfolio-projects.jpg" alt="Projects index: oversized project titles with a tilted Exchange preview following the cursor"><br><sub><b>Projects</b>: an editorial index with cursor following previews</sub></td>
+    <td width="32%"><img src="assets/portfolio-mobile.jpg" alt="Portfolio homepage on a phone: ALISH above the portrait, SHARMA below"><br><sub><b>Mobile</b>: designed for phones, not shrunk</sub></td>
   </tr>
 </table>
 
-My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid-glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel-wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. Every project on this page has its own page there with screenshots. All content lives in typed data files, so updating it never means touching animation code.
+My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. Every project on this page has its own page there with screenshots, and every push to `main` deploys automatically on Vercel.
 
 `Next.js 16` `TypeScript` `GSAP + ScrollTrigger` `Lenis` `Canvas` `Tailwind CSS v4` `Vercel`
 
-**[▶ Live site](https://alish-portfolio-nu.vercel.app)** · [Source](https://github.com/alishsharma17/alish-portfolio)
+**[▶ sharmalish.com](https://sharmalish.com)** · [Source](https://github.com/alishsharma17/alish-portfolio)
 
 <br>
 
@@ -193,10 +195,10 @@ My personal site, built as an interactive editorial piece. A topographic contour
   <img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,cloudflare,aws,linux,git&theme=light" alt="PostgreSQL, Supabase, SQLite, Cloudflare, AWS, Linux, Git">
 </p>
 
-**Also:** C++20 & WebAssembly (Emscripten) · PyTorch & OpenCV · GoogleTest · React Native & Expo · SwiftUI · MapLibre · MediaPipe · Vitest & Playwright · Cisco routing & switching · Windows Server / Active Directory · VMware
+**Also:** C++20 & WebAssembly (Emscripten) · PyTorch & OpenCV · GoogleTest · React Native & Expo · Swift · MapLibre · MediaPipe · Vitest & Playwright · WebSockets & Web Workers
 
 <br>
 
 <div align="center">
-<sub>Built, tested and shipped by Alish Sharma · <a href="https://www.linkedin.com/in/alish-sharma-357760257/">LinkedIn</a> · <a href="mailto:alishsharma04@gmail.com">alishsharma04@gmail.com</a></sub>
+<sub>Built, tested and shipped by Alish Sharma · <a href="https://sharmalish.com">sharmalish.com</a> · <a href="https://www.linkedin.com/in/alish-sharma-357760257/">LinkedIn</a> · <a href="mailto:alishsharma04@gmail.com">alishsharma04@gmail.com</a></sub>
 </div>
