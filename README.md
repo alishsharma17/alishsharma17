@@ -4,13 +4,13 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://alish-portfolio-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_site-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-TICKWIRE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: TICKWIRE"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
 
 </div>
 
 <br>
 
-I study computer science at **Texas A&M**, keep airline systems running as a **Field Engineer at United Airlines**, and I'm building **Mowvi**, an on-demand lawn care marketplace for iOS.
+I study computer science at **Texas A&M**, keep airline systems running as a **Field Engineer at United Airlines**, and I'm building **Mowvi**, an on demand lawn care marketplace app. My portfolio, with everything below, lives at **[alish-portfolio-nu.vercel.app](https://alish-portfolio-nu.vercel.app)**.
 
 I like products that work all the way down: the interface, the data model, and the network it runs on. Below are things I've designed, built, tested and shipped myself.
 
@@ -18,13 +18,18 @@ I like products that work all the way down: the interface, the data model, and t
 
 ## ◼ Building now
 
-<img src="assets/mowvi.png" alt="Mowvi: book a vetted local lawn pro in under a minute, with the price upfront. Built with SwiftUI, Supabase and PostgreSQL, and Stripe Connect." width="100%">
+<img src="assets/mowvi-app.jpg" alt="Mowvi app screens: welcome screen, client home with Book lawn care, the Discover feed with a before and after lawn photo, and the pro dashboard showing You're online and the next job" width="100%">
 
-**Mowvi** is a two-sided marketplace. Homeowners book lawn care with an upfront price, local pros accept the job, and the platform handles everything in between. It's a native iOS app on a Supabase/PostgreSQL backend, with Stripe Connect for payments.
+**Mowvi** is a two sided lawn care marketplace. Clients book a scoped job with a server calculated price, approved local pros claim it, do the work and submit photo evidence, and the platform handles everything in between. One Expo app serves both sides, with a client mode and a pro mode.
 
-- **Escrow-style payments.** The card is authorized at booking and captured only after the job is verified complete with photos.
-- **Instant payouts.** Stripe Connect pays the pro as soon as the job is done.
-- **Discover feed.** People post their yards, follow each other and see which pro did the work, so the app is useful between bookings.
+- **Payments held until the work is done.** The payment is held at booking, captured on completion and reconciled in a ledger, with Stripe underneath.
+- **Rules enforced in the database.** Supabase and PostgreSQL with row level security, server side pricing and job state machines, plus integration tests against the local stack.
+- **Discover feed.** Before and after photos from real jobs, so the app is useful between bookings.
+- **Operations console.** A Next.js admin, protected by MFA, for handling exceptions.
+
+`Expo` `React Native` `TypeScript` `Supabase` `PostgreSQL` `Stripe` `Next.js`
+
+*Development prototype: runs against synthetic data and a payment simulator.*
 
 <br>
 
@@ -75,6 +80,30 @@ A real-time computer vision platform that runs on your own hardware. A Python en
 `Python` `PyTorch (MPS)` `OpenCV` `FastAPI` `WebSockets` `SQLAlchemy` `NumPy / SciPy` `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Vercel`
 
 **[▶ Live site](https://spectra-fawn-ten.vercel.app)** · [Source](https://github.com/alishsharma17/spectra)
+
+<br>
+
+### 📡 TICKWIRE · *Market data, engineered.*
+
+<a href="https://tickwire-sigma.vercel.app"><img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/tickwire-book.jpg" alt="Order book view: reconstructed price ladder, top of book stats, cumulative depth chart and a depth heatmap"><br><sub><b>Order book</b>: the reconstructed ladder and depth</sub></td>
+    <td width="50%"><img src="assets/tickwire-replay.jpg" alt="Replay studio: transport controls, an event inspector of ITCH messages and a field by field decode of message 777"><br><sub><b>Replay studio</b>: step through every message</sub></td>
+  </tr>
+</table>
+
+A market data engineering lab in **C++20**. It decodes **Nasdaq TotalView ITCH 5.0 over MoldUDP64 on real UDP sockets**, pushes the feed through a deterministic fault proxy, recovers lost packets with UDP retransmission and rebuilds the order book transactionally. The same engine, compiled to **WebAssembly**, powers the public demo in your browser and reproduces the native book and trade hashes.
+
+- **Recovery you can verify.** Gaps, including tail loss only revealed by heartbeats, are re requested over UDP, and the run ends with book and trade hashes identical to the clean run.
+- **Fails honestly.** Unrecoverable holes end in `FAILED` with the last valid prefix, never reported healthy.
+- **Reproducible.** Virtual time simulation with exact trace hashes, byte exact replay, and checkpoint seek equal to linear replay.
+- **Fast.** About 119 M messages per second ITCH decode on one core, and a 30 minute soak with continuous loss that recovers 44k gaps.
+
+`C++20` `UDP / MoldUDP64` `Boost.Beast` `WebAssembly` `Next.js` `TypeScript` `Vercel`
+
+**[▶ Live site](https://tickwire-sigma.vercel.app)** · [Source](https://github.com/alishsharma17/tickwire)
 
 <br>
 
@@ -137,11 +166,11 @@ A robotics lab in the browser. Your webcam watches your hand, and **Kiki**, a hu
   </tr>
 </table>
 
-My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid-glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel-wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. All content lives in typed data files, so updating it never means touching animation code.
+My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid-glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel-wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. Every project on this page has its own page there with screenshots. All content lives in typed data files, so updating it never means touching animation code.
 
-`Next.js 16` `TypeScript` `GSAP + ScrollTrigger` `Lenis` `Canvas` `Tailwind CSS v4`
+`Next.js 16` `TypeScript` `GSAP + ScrollTrigger` `Lenis` `Canvas` `Tailwind CSS v4` `Vercel`
 
-[Source](https://github.com/alishsharma17/alish-portfolio)
+**[▶ Live site](https://alish-portfolio-nu.vercel.app)** · [Source](https://github.com/alishsharma17/alish-portfolio)
 
 <br>
 
