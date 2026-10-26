@@ -4,15 +4,29 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-EXCHANGE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: EXCHANGE"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-SPECTRA-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: SPECTRA"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-TICKWIRE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: TICKWIRE"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-PADDOCKK-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: PADDOCKK"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
 
 </div>
 
 <br>
 
-I'm a **software engineer** who designs, builds and ships complete products: a C++ exchange compiled to WebAssembly, a real time computer vision platform, a market data lab, and **Mowvi**, the lawn care marketplace I'm founding. I study computer science at **Texas A&M**. Everything below lives on my portfolio at **[sharmalish.com](https://sharmalish.com)**.
+Hey, I'm Alish. I'm an engineer at **United Airlines**, a Computer Science student at **Texas A&M**, and the founder and CEO of **Mowvi**, a tech startup I'm building from the ground up.
 
-I like products that work all the way down: the interface, the data model and the engine underneath. Below are things I've designed, built, tested and shipped myself.
+Most of my free time goes into side projects, and lately that means trading systems and C++: an exchange with its own matching engine, a Nasdaq market data feed handler, plus computer vision, 3D web apps and the website at **[sharmalish.com](https://sharmalish.com)**. Outside of code it's usually Formula 1, games or editing videos.
+
+I'm open to **full time software engineering roles**, especially in trading systems, backend or systems programming.
+
+<br>
+
+## ◼ Experience
+
+| Role | Where | When |
+| --- | --- | --- |
+| **Founder & CEO** | Mowvi | 2025 to present |
+| **Field Engineer**, Terminal B Transformation Project | United Airlines, Houston | Mar 2026 to present |
+| **B.S. Computer Science** | Texas A&M University, College of Engineering | Expected May 2027 |
+| **Web Developer Intern** (intern lead) | Youth Renewal Sciences, remote | Sep 2025 to Nov 2025 |
+| **IT Help Desk Team Lead** (led 4 student technicians) | Texas A&M College of Engineering | Sep 2024 to Feb 2026 |
 
 <br>
 
@@ -20,14 +34,16 @@ I like products that work all the way down: the interface, the data model and th
 
 <img src="assets/mowvi-app.jpg" alt="Mowvi app screens: welcome screen, client home with Book lawn care, the Discover feed with a before and after lawn photo, and the pro dashboard showing You're online and the next job" width="100%">
 
-**Mowvi** is a two sided lawn care marketplace. Clients book a scoped job with a server calculated price, approved local pros claim it, do the work and submit photo evidence, and the platform handles everything in between. One Expo app serves both sides, with a client mode and a pro mode.
+**Mowvi** is the startup I founded and run as CEO and sole engineer: a two sided lawn care marketplace. Clients book a scoped job with a server calculated price, approved local pros claim it, do the work and submit photo evidence, and the platform handles everything in between. One Expo app serves both sides, with a client mode and a pro mode.
 
 - **Payments held until the work is done.** The payment is held at booking, captured on completion and reconciled in a ledger, with Stripe underneath.
 - **Rules enforced in the database.** Supabase and PostgreSQL with row level security, server side pricing and job state machines, plus integration tests against the local stack.
 - **Discover feed.** Before and after photos from real jobs, so the app is useful between bookings.
 - **Operations console.** A Next.js admin, protected by MFA, for handling exceptions.
+- **Stripe Connect.** Deno Edge Functions handle provider onboarding, payments and webhooks.
+- **Validated early.** 50 homeowner interviews plus conversations with lawn care workers before building.
 
-`Expo` `React Native` `TypeScript` `Supabase` `PostgreSQL` `Stripe` `Next.js`
+`Expo` `React Native` `TypeScript` `Supabase` `PostgreSQL` `Deno` `Stripe Connect` `Next.js`
 
 *Development prototype: runs against synthetic data and a payment simulator.*
 
@@ -35,7 +51,35 @@ I like products that work all the way down: the interface, the data model and th
 
 ## ◼ Selected work
 
-### 📈 EXCHANGE · *A market, built from first principles.*
+<sub>Most of these repos are private for now. Happy to walk through any of the code on request.</sub>
+
+### 📡 Tickwire · *Market data, engineered.*
+
+<a href="https://tickwire-sigma.vercel.app"><img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/tickwire-book.jpg" alt="Order book view: reconstructed price ladder, top of book stats, cumulative depth chart and a depth heatmap"><br><sub><b>Order book</b>: the reconstructed ladder and depth</sub></td>
+    <td width="50%"><img src="assets/tickwire-replay.jpg" alt="Replay studio: transport controls, an event inspector of ITCH messages and a field by field decode of message 777"><br><sub><b>Replay studio</b>: step through every message</sub></td>
+  </tr>
+</table>
+
+A market data engineering lab in **C++20**. It decodes **Nasdaq TotalView ITCH 5.0 over MoldUDP64 on real UDP sockets**, pushes the feed through a deterministic fault proxy, recovers lost packets with UDP retransmission and rebuilds the order book transactionally. The same engine, compiled to **WebAssembly**, runs in your browser and reproduces the native book and trade hashes.
+
+- **Recovery you can verify.** Gaps, including tail loss only revealed by heartbeats, are re requested over UDP, and the run ends with book and trade hashes identical to the clean run.
+- **Fails honestly.** Unrecoverable holes end in `FAILED` with the last valid prefix, never reported healthy.
+- **Reproducible.** Virtual time simulation with exact trace hashes, byte exact replay, and checkpoint seek equal to linear replay.
+- **Fast.** Profiled and removed an O(n) trade break rescan, which sped up book updates 25× to **20.9M events/s** (p99 3.1 µs per packet). ITCH decode runs at about 119M messages/s on one core.
+- **Recovers fast.** A seeded fault proxy runs 12 loss, reorder and corruption scenarios; a 5 packet burst loss recovers in **494 µs** median.
+- **Tested.** 124 GoogleTest cases under ASan, UBSan and TSan, 29 Playwright tests, and a 30 minute soak with continuous loss that recovers 44k gaps. The WebAssembly build matches native hashes on 1M messages at 3.2M msg/s.
+
+`C++20` `UDP / MoldUDP64` `Boost.Beast` `WebAssembly` `Next.js` `TypeScript` `Vercel`
+
+**[▶ Live site](https://tickwire-sigma.vercel.app)**
+
+<br>
+
+### 📈 Exchange · *A market, built from first principles.*
 
 <a href="https://exchange-one-tau.vercel.app"><img src="assets/exchange.jpg" alt="EXCHANGE overview: 'A market, built from first principles.' above a live heat map of order-book depth over time, with a recent-trades panel and live bid, ask and spread" width="100%"></a>
 
@@ -46,20 +90,20 @@ I like products that work all the way down: the interface, the data model and th
   </tr>
 </table>
 
-A working stock exchange, options desk and risk lab that runs entirely in your browser. The core is a **C++20 price-time-priority matching engine** and quant library compiled to **WebAssembly**, running in Web Workers behind a React interface. You trade against seeded market makers, price options, shape a volatility surface, stress a portfolio and backtest strategies on the same engine — and a **Live** page streams the real Bitcoin, Ether and Solana order books from Coinbase and Kraken. Simulated data is labelled simulated; live data is labelled live.
+A working stock exchange, options desk and risk lab that runs entirely in your browser. The core is a **C++20 price-time-priority matching engine** and quant library compiled to **WebAssembly**, running in Web Workers behind a React interface. You trade against seeded market makers, price options, shape a volatility surface, stress a portfolio and backtest strategies on the same engine. A **Live** page streams the real Bitcoin, Ether and Solana order books from Coinbase and Kraken. Simulated data is labelled simulated; live data is labelled live.
 
-- **Matching engine.** Integer-tick limit order book with limit, market, IOC, FOK, post-only and stop orders, cancel/replace priority rules and self-trade prevention. Sessions are event-sourced: replaying the log reproduces a 64-bit state hash, and the native and WebAssembly builds reach identical hashes.
+- **Matching engine.** Integer-tick limit order book with limit, market, IOC, FOK, post-only and stop orders, cancel/replace priority rules and self-trade prevention. Sessions are event-sourced: replaying the log reproduces a 64-bit state hash, and the native and WebAssembly builds reach identical hashes. It sustains **13.0M mixed ops/s** natively (p50 74 ns/op) and 8.1M ops/s in the browser.
 - **Quant library.** Black–Scholes–Merton with Greeks, an implied-vol solver, a CRR binomial tree, seeded Monte Carlo with antithetic and control variates, volatility surfaces with arbitrage checks, and portfolio scenarios with VaR and expected shortfall.
 - **Live market data.** Real order books and trades over public WebSockets, parsed off the main thread, with stale/reconnect handling, recent history, and paper trading that walks the live book to show slippage.
 - **Tested end to end.** 77 GoogleTest cases (including randomized property tests, also run under AddressSanitizer and UBSan), 55 Vitest tests against the shipped `.wasm` and recorded real feed messages, and 34 Playwright tests including automated accessibility checks.
 
 `C++20` `WebAssembly / Emscripten` `Next.js 16` `React 19` `TypeScript` `Web Workers` `WebSockets` `Plotly` `GoogleTest` `Vitest` `Playwright` `Vercel`
 
-**[▶ Live site](https://exchange-one-tau.vercel.app)** · [Source](https://github.com/alishsharma17/EXCHANGE)
+**[▶ Live site](https://exchange-one-tau.vercel.app)**
 
 <br>
 
-### 👁️ SPECTRA · *See. Understand. Act.*
+### 👁️ Spectra · *See. Understand. Act.*
 
 <a href="https://spectra-fawn-ten.vercel.app/vision"><img src="assets/spectra-vision.jpg" alt="SPECTRA Vision workspace: a street scene with instance masks, tracked boxes and labels, a crosswalk zone and midline tripwire, plus measured inference latency and a timeline of person and car counts with rule events" width="100%"></a>
 
@@ -75,39 +119,15 @@ A real-time computer vision platform that runs on your own hardware. A Python en
 - **Bounded-latency streaming.** Decode and inference threads joined by a bounded queue: live mode drops stale frames, so latency can't build up, while replay mode processes every frame in order. From frame decode to client it measures **24.4 ms p50 / 29.2 ms p99** with YOLO on an Apple M5 Pro.
 - **Tracking from first principles.** My own ByteTrack-style tracker: a Kalman filter plus two-stage optimal assignment, at **0.24 ms per frame** for 10 objects. The rule engine adds hysteresis and cooldowns, so one crossing fires one event.
 - **Measured, not assumed.** Back-to-back benchmarks said **7.1 ms** per inference; at a 15 Hz duty cycle it's **~24 ms**, because the GPU idles between calls. I also reproduced and fixed a GPU race that crashed the server when models were switched. All numbers come from scripts in the repo.
-- **Secure by test.** Workspace RBAC, CSRF protection, SSRF defence for camera URLs, encrypted credentials, and opt-in, visible recording — covered by 92 pytest tests, including runs with real model weights.
+- **Secure by test.** Workspace RBAC, CSRF protection, SSRF defence for camera URLs, encrypted credentials, and opt in, visible recording, covered by 92 pytest tests, including runs with real model weights.
 
 `Python` `PyTorch (MPS)` `OpenCV` `FastAPI` `WebSockets` `SQLAlchemy` `NumPy / SciPy` `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Vercel`
 
-**[▶ Live site](https://spectra-fawn-ten.vercel.app)** · [Source](https://github.com/alishsharma17/spectra)
+**[▶ Live site](https://spectra-fawn-ten.vercel.app)**
 
 <br>
 
-### 📡 TICKWIRE · *Market data, engineered.*
-
-<a href="https://tickwire-sigma.vercel.app"><img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%"></a>
-
-<table>
-  <tr>
-    <td width="50%"><img src="assets/tickwire-book.jpg" alt="Order book view: reconstructed price ladder, top of book stats, cumulative depth chart and a depth heatmap"><br><sub><b>Order book</b>: the reconstructed ladder and depth</sub></td>
-    <td width="50%"><img src="assets/tickwire-replay.jpg" alt="Replay studio: transport controls, an event inspector of ITCH messages and a field by field decode of message 777"><br><sub><b>Replay studio</b>: step through every message</sub></td>
-  </tr>
-</table>
-
-A market data engineering lab in **C++20**. It decodes **Nasdaq TotalView ITCH 5.0 over MoldUDP64 on real UDP sockets**, pushes the feed through a deterministic fault proxy, recovers lost packets with UDP retransmission and rebuilds the order book transactionally. The same engine, compiled to **WebAssembly**, powers the public demo in your browser and reproduces the native book and trade hashes.
-
-- **Recovery you can verify.** Gaps, including tail loss only revealed by heartbeats, are re requested over UDP, and the run ends with book and trade hashes identical to the clean run.
-- **Fails honestly.** Unrecoverable holes end in `FAILED` with the last valid prefix, never reported healthy.
-- **Reproducible.** Virtual time simulation with exact trace hashes, byte exact replay, and checkpoint seek equal to linear replay.
-- **Fast.** About 119 M messages per second ITCH decode on one core, and a 30 minute soak with continuous loss that recovers 44k gaps.
-
-`C++20` `UDP / MoldUDP64` `Boost.Beast` `WebAssembly` `Next.js` `TypeScript` `Vercel`
-
-**[▶ Live site](https://tickwire-sigma.vercel.app)** · [Source](https://github.com/alishsharma17/tickwire)
-
-<br>
-
-### 🏁 PADDOCKK · *The sport, decoded.*
+### 🏁 Paddockk · *The sport, decoded.*
 
 <a href="https://paddockk.alishsharma88.workers.dev"><img src="assets/paddockk.jpg" alt="PADDOCKK homepage: 'The sport. Decoded.' over a 3D outline of the Circuit of the Americas with a live race countdown" width="100%"></a>
 
@@ -122,11 +142,11 @@ An independent Formula 1 platform with **nine modules**: live timing, a strategy
 
 `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Supabase` `Cloudflare Workers` `Vitest` `Playwright`
 
-**[▶ Live site](https://paddockk.alishsharma88.workers.dev)** · [Source](https://github.com/alishsharma17/apex)
+**[▶ Live site](https://paddockk.alishsharma88.workers.dev)**
 
 <br>
 
-### 🌍 EARTH//PULSE · *A living planet you can explore.*
+### 🌍 Earth//Pulse · *A living planet you can explore.*
 
 <a href="https://pulse.alishsharma88.workers.dev"><img src="assets/pulse.jpg" alt="Earth//Pulse: an illustrated 3D globe with live weather, earthquake and storm markers, a local forecast card and a minimap" width="100%"></a>
 
@@ -134,11 +154,11 @@ Spin an illustrated 3D Earth, then dive from space to street-level maps without 
 
 `Next.js` `React Three Fiber` `MapLibre GL` `NASA GIBS / EONET` `USGS` `Open-Meteo` `Cloudflare Workers`
 
-**[▶ Live site](https://pulse.alishsharma88.workers.dev)** · [Source](https://github.com/alishsharma17/pulse)
+**[▶ Live site](https://pulse.alishsharma88.workers.dev)**
 
 <br>
 
-### 🤖 KINETIC · *Movement becomes instruction.*
+### 🤖 Kinetic · *Movement becomes instruction.*
 
 <img src="assets/kinetic-studio.jpg" alt="Kinetic Studio: a humanoid robot arm with a five-finger hand on a physics bench, with control panels and live joint telemetry" width="100%">
 
@@ -153,11 +173,10 @@ A robotics lab in the browser. Your webcam watches your hand, and **Kiki**, a hu
 
 `React` `TypeScript` `Three.js` `MediaPipe` `Rapier` `Web Workers` `IndexedDB` `Vite` `Playwright`
 
-[Source](https://github.com/alishsharma17/kinetic)
 
 <br>
 
-### ✦ sharmalish.com · *An interactive poster with a codebase under its surface.*
+### ✦ Personal Portfolio · *[sharmalish.com](https://sharmalish.com)*
 
 <a href="https://sharmalish.com"><img src="assets/portfolio.jpg" alt="Portfolio homepage: giant ALISH SHARMA type layered around a portrait, over a topographic contour field, with a liquid glass cursor lens revealing hidden code" width="100%"></a>
 
@@ -168,11 +187,11 @@ A robotics lab in the browser. Your webcam watches your hand, and **Kiki**, a hu
   </tr>
 </table>
 
-My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. Every project on this page has its own page there with screenshots, and every push to `main` deploys automatically on Vercel.
+My personal site, built as an interactive editorial piece. A topographic contour field drawn with **marching squares** reacts to your cursor, and a 48px **liquid glass lens** follows the pointer to reveal a hidden layer of code. It has a cinematic preloader, panel wipe page transitions, pinned scroll sections and horizontal galleries, plus fallbacks for reduced motion and touch. Every project on this page has its own page there with screenshots. It's hardened with a strict Content Security Policy and security headers, and GitHub Actions runs dependency audits, secret scans and header tests on every push.
 
 `Next.js 16` `TypeScript` `GSAP + ScrollTrigger` `Lenis` `Canvas` `Tailwind CSS v4` `Vercel`
 
-**[▶ sharmalish.com](https://sharmalish.com)** · [Source](https://github.com/alishsharma17/alish-portfolio)
+**[▶ sharmalish.com](https://sharmalish.com)**
 
 <br>
 
