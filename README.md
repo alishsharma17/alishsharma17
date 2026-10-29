@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a>
 
 </div>
 
@@ -155,6 +155,25 @@ Spin an illustrated 3D Earth, then dive from space to street-level maps without 
 `Next.js` `React Three Fiber` `MapLibre GL` `NASA GIBS / EONET` `USGS` `Open-Meteo` `Cloudflare Workers`
 
 **[▶ Live site](https://pulse.alishsharma88.workers.dev)**
+
+<br>
+
+### ✈️ AIRSPACE · *The sky is full of stories.*
+
+<a href="https://airspace-gilt.vercel.app"><img src="assets/airspace.jpg" alt="AIRSPACE: a light paper style map of New York with hundreds of aircraft icons coloured by altitude and labelled with their callsigns" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/airspace-home.jpg" alt="AIRSPACE homepage: a sky blue hero reading There's a whole world above you, next to a globe of aircraft dots"><br><sub><b>Home</b>: a spinning globe with one dot per aircraft</sub></td>
+    <td width="50%"><img src="assets/airspace-lab.jpg" alt="Flight Physics Lab with airspeed, angle of attack and wing area sliders and a tilting wing diagram"><br><sub><b>Physics lab</b>: tilt the wing until it stalls</sub></td>
+  </tr>
+</table>
+
+An interactive aviation explorer with live aircraft tracking, airport discovery and hands on aviation lessons. Spin a globe, zoom into a city and tap any plane for its altitude, ground speed, track, type and registration, then filter by airline, aircraft type or altitude. The data is labelled honestly: anything over three minutes old says **Delayed**, demo aircraft always say **Demo**, and routes are never guessed from callsigns. About 5,000 airports get runway diagrams drawn from surveyed coordinates, and six interactive lessons teach how flying actually works.
+
+`Next.js` `TypeScript` `MapLibre GL` `TanStack Query` `Zustand` `OpenSky Network` `ADSB.lol` `Vercel`
+
+**[▶ Live site](https://airspace-gilt.vercel.app)**
 
 <br>
 
