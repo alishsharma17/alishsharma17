@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a>
 
 </div>
 
@@ -52,6 +52,30 @@ I'm open to **full time software engineering roles**, especially in trading syst
 ## ◼ Selected work
 
 <sub>Most of these repos are private for now. Happy to walk through any of the code on request.</sub>
+
+### 🧬 NEUROMARKET | Evolving Artificial Financial Intelligence
+
+<a href="https://neuromarket-ten.vercel.app"><img src="assets/neuromarket.jpg" alt="NEUROMARKET ecosystem: clusters of glowing trading organisms coloured by strategy family, with a neural organism selected and its network weights and activations drawn in the inspector" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/neuromarket-evolution.jpg" alt="Evolution laboratory: fitness across generations with a percentile band, a fitness histogram, diversity and family share charts"><br><sub><b>Evolution lab</b>: every curve computed by the engine per generation</sub></td>
+    <td width="50%"><img src="assets/neuromarket-research.jpg" alt="Research laboratory: held out test of the champion against six baselines, with a parameter sweep panel"><br><sub><b>Research lab</b>: held out test against six baselines</sub></td>
+  </tr>
+</table>
+
+A C++20 and WebAssembly powered research platform where autonomous neural trading agents evolve through competitive synthetic market simulations, with interactive 3D visualization and reproducible quantitative experiments. Momentum, mean reversion, market making, random and neural organisms trade through a **price time priority order book**, are scored on return, Sharpe, drawdown and turnover, and are bred by **tournament selection, crossover and self adaptive mutation**. The engine runs in a Web Worker in your browser.
+
+- **Honest evaluation.** Training scenarios rotate every generation, the champion is chosen only on held out validation seeds, and a separate test set compares it against six baselines.
+- **Deterministic.** Every generation records a population hash; saved experiments replay and verify every hash, identically in Node and Chrome.
+- **Fast.** About **17M order book ops/s** (p50 42 ns), and a 100 organism generation in **191 ms** natively or **363 ms** in WebAssembly.
+- **Tested.** 53 GoogleTest cases with conservation property tests under ASan and UBSan, plus 6 Playwright tests that drive the real engine and pass against the live site.
+
+`C++20` `WebAssembly` `TypeScript` `Next.js` `React Three Fiber` `Three.js` `Python` `CMake` `Web Workers` `Vercel`
+
+**[▶ Live site](https://neuromarket-ten.vercel.app)** · **[Code](https://github.com/alishsharma17/neuromarket)**
+
+<br>
 
 ### 📡 Tickwire · *Market data, engineered.*
 
