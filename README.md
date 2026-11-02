@@ -77,6 +77,28 @@ A C++20 and WebAssembly powered research platform where autonomous neural tradin
 
 <br>
 
+### 🎲 MONTE CARLO X · *Explore the mathematics of uncertainty.*
+
+<img src="assets/monte-carlo-x.jpg" alt="Probability Field: a 3D sculpture of 20,000 simulated Bitcoin price paths calibrated on four years of Coinbase history, with the terminal distribution drawn as a fin and VaR and expected shortfall below" width="100%">
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/monte-carlo-x-risk.jpg" alt="Risk observatory: wealth index and drawdown, Euler risk contributions, a correlation heatmap and a VaR and expected shortfall table for a real three asset crypto portfolio"><br><sub><b>Risk observatory</b>: tail risk and attribution from real returns</sub></td>
+    <td width="50%"><img src="assets/monte-carlo-x-derivatives.jpg" alt="Derivatives reactor: Greeks, Monte Carlo standard error shrinking with path count, and Heston, Merton, Asian and barrier prices"><br><sub><b>Derivatives reactor</b>: one option priced five ways</sub></td>
+  </tr>
+</table>
+
+A browser based quant research lab. Pick real instruments, the server pulls their history, fits the parameters and simulates seeded futures under **six stochastic models** (correlated GBM, Ornstein Uhlenbeck, Merton jumps, Heston, i.i.d. and block bootstrap). Six sections cover the probability field, portfolio risk, volatility (EWMA, **GARCH(1,1)**, HMM regimes), option pricing, stress tests and a research notebook. It grew out of studying Mariana Antaya's [GPU Monte Carlo script](https://github.com/mar-antaya/monte-carlo-sim).
+
+- **Real data, labeled.** Live Coinbase and Kraken trades stream straight into the browser, venue by venue, with event timestamps; ECB and FRED for FX and rates; Alpaca and Finnhub with your own keys. Missing data is an error, never a stand in.
+- **Reproducible.** Saved experiments are rerun on the server and match bit for bit, checked with SHA 256 digests.
+- **Fast where it counts.** A C++20 kernel via pybind11 ran a 400,000 path benchmark **1.81×** faster than NumPy on one thread and **4.98×** on four.
+- **Tested.** 24 numerical tests against closed forms, 11 API tests, and 10 Playwright tests that passed against the deployed site.
+
+`Python` `NumPy` `SciPy` `C++20` `pybind11` `FastAPI` `Next.js` `React Three Fiber` `Three.js` `TypeScript` `Playwright` `Vercel`
+
+<br>
+
 ### 📡 Tickwire · *Market data, engineered.*
 
 <a href="https://tickwire-sigma.vercel.app"><img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%"></a>
