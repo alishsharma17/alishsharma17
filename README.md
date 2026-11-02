@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a> <a href="https://monte-carlo-x.vercel.app"><img src="https://img.shields.io/badge/Live_demo-MONTE_CARLO_X-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: MONTE CARLO X"></a>
 
 </div>
 
@@ -79,7 +79,7 @@ A C++20 and WebAssembly powered research platform where autonomous neural tradin
 
 ### 🎲 MONTE CARLO X · *Explore the mathematics of uncertainty.*
 
-<img src="assets/monte-carlo-x.jpg" alt="Probability Field: a 3D sculpture of 20,000 simulated Bitcoin price paths calibrated on four years of Coinbase history, with the terminal distribution drawn as a fin and VaR and expected shortfall below" width="100%">
+<a href="https://monte-carlo-x.vercel.app"><img src="assets/monte-carlo-x.jpg" alt="Probability Field: a 3D sculpture of 20,000 simulated Bitcoin price paths calibrated on four years of Coinbase history, with the terminal distribution drawn as a fin and VaR and expected shortfall below" width="100%"></a>
 
 <table>
   <tr>
@@ -96,6 +96,8 @@ A browser based quant research lab. Pick real instruments, the server pulls thei
 - **Tested.** 24 numerical tests against closed forms, 11 API tests, and 10 Playwright tests that passed against the deployed site.
 
 `Python` `NumPy` `SciPy` `C++20` `pybind11` `FastAPI` `Next.js` `React Three Fiber` `Three.js` `TypeScript` `Playwright` `Vercel`
+
+**[▶ Live site](https://monte-carlo-x.vercel.app)**
 
 <br>
 
