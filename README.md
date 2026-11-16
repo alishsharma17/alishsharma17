@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a> <a href="https://monte-carlo-x.vercel.app"><img src="https://img.shields.io/badge/Live_demo-MONTE_CARLO_X-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: MONTE CARLO X"></a>
+<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a> <a href="https://monte-carlo-x.vercel.app"><img src="https://img.shields.io/badge/Live_demo-MONTE_CARLO_X-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: MONTE CARLO X"></a> <a href="https://ascii-studio-two.vercel.app"><img src="https://img.shields.io/badge/Live_demo-ASCII.STUDIO-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: ASCII.STUDIO"></a>
 
 </div>
 
@@ -98,6 +98,31 @@ A browser based quant research lab. Pick real instruments, the server pulls thei
 `Python` `NumPy` `SciPy` `C++20` `pybind11` `FastAPI` `Next.js` `React Three Fiber` `Three.js` `TypeScript` `Playwright` `Vercel`
 
 **[▶ Live site](https://monte-carlo-x.vercel.app)**
+
+<br>
+
+### 🔡 ASCII.STUDIO · *Turn pixels into characters.*
+
+<a href="https://ascii-studio-two.vercel.app"><img src="assets/ascii-studio.jpg" alt="ASCII.STUDIO: a color pinwheel image rebuilt from ASCII characters on a dark canvas, next to controls for resolution, character set, tone and export" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/ascii-studio-home.jpg" alt="Landing page: the headline Every pixel has a character beside a sphere drawn live in ASCII"><br><sub><b>Landing page</b>: the sphere is rendered live and lit by the cursor</sub></td>
+    <td width="50%"><img src="assets/ascii-studio-compare.jpg" alt="Compare mode: a desert dunes image on the left and its ASCII version on the right, split by a draggable divider"><br><sub><b>Compare</b>: drag the divider between the original and the ASCII</sub></td>
+  </tr>
+</table>
+
+An image to ASCII art studio that runs entirely in the browser. Drop in an image and it is rebuilt out of text as you adjust it: each block of pixels is averaged, measured for brightness and swapped for a character with the matching amount of ink, on a grid corrected for the real shape of the font.
+
+- **Real conversion, off the main thread.** A plain TypeScript engine in a Web Worker, with requests coalesced so dragging a slider never queues stale work.
+- **Color.** Full color (every character takes the color under it), mono, green and amber terminals, or custom colors.
+- **Six character sets.** Including Unicode blocks and your own characters, sorted automatically by measured ink coverage, plus Floyd Steinberg dithering.
+- **Real exports.** PNG rendered again at up to 4×, SVG as vector text, plain TXT and clipboard.
+- **Private and tested.** Images never leave the device, and 65 unit tests cover the engine.
+
+`Next.js` `TypeScript` `Tailwind CSS` `Canvas API` `Web Workers` `Vitest` `Vercel`
+
+**[▶ Live site](https://ascii-studio-two.vercel.app)**
 
 <br>
 
