@@ -4,13 +4,13 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/alish-sharma-357760257/"><img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"></a> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <a href="https://tickwire-sigma.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Tickwire-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Tickwire"></a> <a href="https://exchange-one-tau.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Exchange-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Exchange"></a> <a href="https://spectra-fawn-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-Spectra-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Spectra"></a> <a href="https://paddockk.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Paddockk-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Paddockk"></a> <a href="https://pulse.alishsharma88.workers.dev"><img src="https://img.shields.io/badge/Live_demo-Earth//Pulse-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: Earth//Pulse"></a> <a href="https://airspace-gilt.vercel.app"><img src="https://img.shields.io/badge/Live_demo-AIRSPACE-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: AIRSPACE"></a> <a href="https://neuromarket-ten.vercel.app"><img src="https://img.shields.io/badge/Live_demo-NEUROMARKET-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: NEUROMARKET"></a> <a href="https://monte-carlo-x.vercel.app"><img src="https://img.shields.io/badge/Live_demo-MONTE_CARLO_X-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: MONTE CARLO X"></a> <a href="https://ascii-studio-two.vercel.app"><img src="https://img.shields.io/badge/Live_demo-ASCII.STUDIO-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Live demo: ASCII.STUDIO"></a>
+<img src="https://img.shields.io/badge/LinkedIn-19352A?style=for-the-badge&logo=linkedin&logoColor=C7FF3D" alt="LinkedIn"> <a href="mailto:alishsharma04@gmail.com"><img src="https://img.shields.io/badge/Email-19352A?style=for-the-badge&logo=gmail&logoColor=C7FF3D" alt="Email"></a> <a href="https://sharmalish.com"><img src="https://img.shields.io/badge/Portfolio-sharmalish.com-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Portfolio: sharmalish.com"></a> <img src="https://img.shields.io/badge/Mowvi-mowvi.app-19352A?style=for-the-badge&labelColor=C7FF3D" alt="Mowvi: mowvi.app">
 
 </div>
 
 <br>
 
-Hey, I'm Alish. I'm an engineer at **United Airlines**, a Computer Science student at **Texas A&M**, and the founder and CEO of **Mowvi**, a tech startup I'm building from the ground up.
+Hey, I'm Alish. I'm an engineer at **United Airlines**, a Computer Science student at **Texas A&M**, and the founder and CEO of **[Mowvi](https://mowvi.app)**, a tech startup I'm building from the ground up.
 
 Most of my free time goes into side projects, and lately that means trading systems and C++: an exchange with its own matching engine, a Nasdaq market data feed handler, plus computer vision, 3D web apps and the website at **[sharmalish.com](https://sharmalish.com)**. Outside of code it's usually Formula 1, games or editing videos.
 
@@ -47,6 +47,8 @@ I'm open to **full time software engineering roles**, especially in trading syst
 
 *Development prototype: runs against synthetic data and a payment simulator.*
 
+**[▶ mowvi.app](https://mowvi.app)**
+
 <br>
 
 ## ◼ Selected work
@@ -55,7 +57,7 @@ I'm open to **full time software engineering roles**, especially in trading syst
 
 ### 🧬 NEUROMARKET | Evolving Artificial Financial Intelligence
 
-<a href="https://neuromarket-ten.vercel.app"><img src="assets/neuromarket.jpg" alt="NEUROMARKET ecosystem: clusters of glowing trading organisms coloured by strategy family, with a neural organism selected and its network weights and activations drawn in the inspector" width="100%"></a>
+<img src="assets/neuromarket.jpg" alt="NEUROMARKET ecosystem: clusters of glowing trading organisms coloured by strategy family, with a neural organism selected and its network weights and activations drawn in the inspector" width="100%">
 
 <table>
   <tr>
@@ -73,13 +75,11 @@ A C++20 and WebAssembly powered research platform where autonomous neural tradin
 
 `C++20` `WebAssembly` `TypeScript` `Next.js` `React Three Fiber` `Three.js` `Python` `CMake` `Web Workers` `Vercel`
 
-**[▶ Live site](https://neuromarket-ten.vercel.app)** · **[Code](https://github.com/alishsharma17/neuromarket)**
-
 <br>
 
 ### 🎲 MONTE CARLO X · *Explore the mathematics of uncertainty.*
 
-<a href="https://monte-carlo-x.vercel.app"><img src="assets/monte-carlo-x.jpg" alt="Probability Field: a 3D sculpture of 20,000 simulated Bitcoin price paths calibrated on four years of Coinbase history, with the terminal distribution drawn as a fin and VaR and expected shortfall below" width="100%"></a>
+<img src="assets/monte-carlo-x.jpg" alt="Probability Field: a 3D sculpture of 20,000 simulated Bitcoin price paths calibrated on four years of Coinbase history, with the terminal distribution drawn as a fin and VaR and expected shortfall below" width="100%">
 
 <table>
   <tr>
@@ -88,7 +88,7 @@ A C++20 and WebAssembly powered research platform where autonomous neural tradin
   </tr>
 </table>
 
-A browser based quant research lab. Pick real instruments, the server pulls their history, fits the parameters and simulates seeded futures under **six stochastic models** (correlated GBM, Ornstein Uhlenbeck, Merton jumps, Heston, i.i.d. and block bootstrap). Six sections cover the probability field, portfolio risk, volatility (EWMA, **GARCH(1,1)**, HMM regimes), option pricing, stress tests and a research notebook. It grew out of studying Mariana Antaya's [GPU Monte Carlo script](https://github.com/mar-antaya/monte-carlo-sim).
+A browser based quant research lab. Pick real instruments, the server pulls their history, fits the parameters and simulates seeded futures under **six stochastic models** (correlated GBM, Ornstein Uhlenbeck, Merton jumps, Heston, i.i.d. and block bootstrap). Six sections cover the probability field, portfolio risk, volatility (EWMA, **GARCH(1,1)**, HMM regimes), option pricing, stress tests and a research notebook. It grew out of studying Mariana Antaya's GPU Monte Carlo script.
 
 - **Real data, labeled.** Live Coinbase and Kraken trades stream straight into the browser, venue by venue, with event timestamps; ECB and FRED for FX and rates; Alpaca and Finnhub with your own keys. Missing data is an error, never a stand in.
 - **Reproducible.** Saved experiments are rerun on the server and match bit for bit, checked with SHA 256 digests.
@@ -97,13 +97,11 @@ A browser based quant research lab. Pick real instruments, the server pulls thei
 
 `Python` `NumPy` `SciPy` `C++20` `pybind11` `FastAPI` `Next.js` `React Three Fiber` `Three.js` `TypeScript` `Playwright` `Vercel`
 
-**[▶ Live site](https://monte-carlo-x.vercel.app)**
-
 <br>
 
 ### 🔡 ASCII.STUDIO · *Turn pixels into characters.*
 
-<a href="https://ascii-studio-two.vercel.app"><img src="assets/ascii-studio.jpg" alt="ASCII.STUDIO: a color pinwheel image rebuilt from ASCII characters on a dark canvas, next to controls for resolution, character set, tone and export" width="100%"></a>
+<img src="assets/ascii-studio.jpg" alt="ASCII.STUDIO: a color pinwheel image rebuilt from ASCII characters on a dark canvas, next to controls for resolution, character set, tone and export" width="100%">
 
 <table>
   <tr>
@@ -122,13 +120,11 @@ An image to ASCII art studio that runs entirely in the browser. Drop in an image
 
 `Next.js` `TypeScript` `Tailwind CSS` `Canvas API` `Web Workers` `Vitest` `Vercel`
 
-**[▶ Live site](https://ascii-studio-two.vercel.app)**
-
 <br>
 
 ### 📡 Tickwire · *Market data, engineered.*
 
-<a href="https://tickwire-sigma.vercel.app"><img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%"></a>
+<img src="assets/tickwire.jpg" alt="TICKWIRE overview: processing latency, committed sequence and recovery stats above a live pipeline from framed source through semantic replay, book engine and gateway to the browser, with transport events showing a gap detected and recovered" width="100%">
 
 <table>
   <tr>
@@ -148,13 +144,11 @@ A market data engineering lab in **C++20**. It decodes **Nasdaq TotalView ITCH 5
 
 `C++20` `UDP / MoldUDP64` `Boost.Beast` `WebAssembly` `Next.js` `TypeScript` `Vercel`
 
-**[▶ Live site](https://tickwire-sigma.vercel.app)**
-
 <br>
 
 ### 📈 Exchange · *A market, built from first principles.*
 
-<a href="https://exchange-one-tau.vercel.app"><img src="assets/exchange.jpg" alt="EXCHANGE overview: 'A market, built from first principles.' above a live heat map of order-book depth over time, with a recent-trades panel and live bid, ask and spread" width="100%"></a>
+<img src="assets/exchange.jpg" alt="EXCHANGE overview: 'A market, built from first principles.' above a live heat map of order-book depth over time, with a recent-trades panel and live bid, ask and spread" width="100%">
 
 <table>
   <tr>
@@ -172,13 +166,11 @@ A working stock exchange, options desk and risk lab that runs entirely in your b
 
 `C++20` `WebAssembly / Emscripten` `Next.js 16` `React 19` `TypeScript` `Web Workers` `WebSockets` `Plotly` `GoogleTest` `Vitest` `Playwright` `Vercel`
 
-**[▶ Live site](https://exchange-one-tau.vercel.app)**
-
 <br>
 
 ### 👁️ Spectra · *See. Understand. Act.*
 
-<a href="https://spectra-fawn-ten.vercel.app/vision"><img src="assets/spectra-vision.jpg" alt="SPECTRA Vision workspace: a street scene with instance masks, tracked boxes and labels, a crosswalk zone and midline tripwire, plus measured inference latency and a timeline of person and car counts with rule events" width="100%"></a>
+<img src="assets/spectra-vision.jpg" alt="SPECTRA Vision workspace: a street scene with instance masks, tracked boxes and labels, a crosswalk zone and midline tripwire, plus measured inference latency and a timeline of person and car counts with rule events" width="100%">
 
 <table>
   <tr>
@@ -196,13 +188,11 @@ A real-time computer vision platform that runs on your own hardware. A Python en
 
 `Python` `PyTorch (MPS)` `OpenCV` `FastAPI` `WebSockets` `SQLAlchemy` `NumPy / SciPy` `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Vercel`
 
-**[▶ Live site](https://spectra-fawn-ten.vercel.app)**
-
 <br>
 
 ### 🏁 Paddockk · *The sport, decoded.*
 
-<a href="https://paddockk.alishsharma88.workers.dev"><img src="assets/paddockk.jpg" alt="PADDOCKK homepage: 'The sport. Decoded.' over a 3D outline of the Circuit of the Americas with a live race countdown" width="100%"></a>
+<img src="assets/paddockk.jpg" alt="PADDOCKK homepage: 'The sport. Decoded.' over a 3D outline of the Circuit of the Americas with a live race countdown" width="100%">
 
 <table>
   <tr>
@@ -215,25 +205,21 @@ An independent Formula 1 platform with **nine modules**: live timing, a strategy
 
 `Next.js 16` `React 19` `TypeScript` `Three.js / R3F` `Supabase` `Cloudflare Workers` `Vitest` `Playwright`
 
-**[▶ Live site](https://paddockk.alishsharma88.workers.dev)**
-
 <br>
 
 ### 🌍 Earth//Pulse · *A living planet you can explore.*
 
-<a href="https://pulse.alishsharma88.workers.dev"><img src="assets/pulse.jpg" alt="Earth//Pulse: an illustrated 3D globe with live weather, earthquake and storm markers, a local forecast card and a minimap" width="100%"></a>
+<img src="assets/pulse.jpg" alt="Earth//Pulse: an illustrated 3D globe with live weather, earthquake and storm markers, a local forecast card and a minimap" width="100%">
 
 Spin an illustrated 3D Earth, then dive from space to street-level maps without a seam. The globe and map share one camera model, and the handoff between them measures **0 px** of drift, even across the antimeridian. It has live earthquakes, storms, fires and volcanoes, weather, dated satellite imagery, guided stories and a Pomodoro timer, with a source and timestamp on every data point.
 
 `Next.js` `React Three Fiber` `MapLibre GL` `NASA GIBS / EONET` `USGS` `Open-Meteo` `Cloudflare Workers`
 
-**[▶ Live site](https://pulse.alishsharma88.workers.dev)**
-
 <br>
 
 ### ✈️ AIRSPACE · *The sky is full of stories.*
 
-<a href="https://airspace-gilt.vercel.app"><img src="assets/airspace.jpg" alt="AIRSPACE: a light paper style map of New York with hundreds of aircraft icons coloured by altitude and labelled with their callsigns" width="100%"></a>
+<img src="assets/airspace.jpg" alt="AIRSPACE: a light paper style map of New York with hundreds of aircraft icons coloured by altitude and labelled with their callsigns" width="100%">
 
 <table>
   <tr>
@@ -245,8 +231,6 @@ Spin an illustrated 3D Earth, then dive from space to street-level maps without 
 An interactive aviation explorer with live aircraft tracking, airport discovery and hands on aviation lessons. Spin a globe, zoom into a city and tap any plane for its altitude, ground speed, track, type and registration, then filter by airline, aircraft type or altitude. The data is labelled honestly: anything over three minutes old says **Delayed**, demo aircraft always say **Demo**, and routes are never guessed from callsigns. About 5,000 airports get runway diagrams drawn from surveyed coordinates, and six interactive lessons teach how flying actually works.
 
 `Next.js` `TypeScript` `MapLibre GL` `TanStack Query` `Zustand` `OpenSky Network` `ADSB.lol` `Vercel`
-
-**[▶ Live site](https://airspace-gilt.vercel.app)**
 
 <br>
 
